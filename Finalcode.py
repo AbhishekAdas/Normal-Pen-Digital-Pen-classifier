@@ -131,10 +131,7 @@ class digital_normal_pen_class:
             img = cv2.filter2D(img, -1, kernel)
             return img
         
-        def scaling(img):
-            return cv2.resize(img, (128,128))  
-        
-        augmentations = [flip, Gaussianblur, sharpening, scaling]
+        augmentations = [flip, Gaussianblur, sharpening]
             
         new_list_image = []
         new_list_label = []
