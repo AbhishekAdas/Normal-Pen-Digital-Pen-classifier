@@ -3,6 +3,5 @@
 #Output_images.zip: Contain pickle file of images. 
 
 #web_scrapping.py: This code is used for web scarpping of images.   
-#Finalcode.py: Python file for training and testing the classifier. SVM, Logistic Regression and Convolution Neural Network (CNN) classification algorithm are used.
-HOG features for training the SVM and Logistics classifiers. Number of images are increased by using flip, blurred, sharpen images.
+#Finalcode.py: Code is used for training and testing the classifier. SVM, Logistic Regression and Convolution Neural Network (CNN) classification algorithm are used. HOG features for training the SVM and Logistics classifiers. Number of images are increased by using flip, blurred, sharpen images.
 
